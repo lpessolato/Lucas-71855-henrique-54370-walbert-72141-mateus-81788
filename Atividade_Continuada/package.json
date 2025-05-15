@@ -1,0 +1,25 @@
+{
+  "name": "login-app",
+  "version": "1.0.0",
+  "description": "Aplicação de autenticação com TypeScript",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "dev": "ts-node-dev --respawn src/app.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/mysql": "^2.15.24",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
+  }
+} 
